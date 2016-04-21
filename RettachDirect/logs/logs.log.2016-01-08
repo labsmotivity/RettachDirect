@@ -1,0 +1,25 @@
+2016-01-08 12:59:06 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-08 12:59:24 INFO  Log:315 - There is no need of doing settings again
+2016-01-08 12:59:38 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d35228fa-fffe-48c4-8643-a97c41c8d2d3
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-08 12:59:38 INFO  Log:383 - There is no accounts to be deleted
+2016-01-08 12:59:41 ERROR Log:410 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 310 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d35228fa-fffe-48c4-8643-a97c41c8d2d3
+*** Element info: {Using=partial link text, value=Account}
+2016-01-08 12:59:41 ERROR Log:411 - Not able to click on My Account
+2016-01-08 12:59:50 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

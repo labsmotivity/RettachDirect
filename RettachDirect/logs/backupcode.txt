@@ -1,0 +1,374 @@
+package com.rettach.scripts;
+
+import mx4j.log.Log;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+public class Rettach {
+	 WebDriver driver;  
+	 public static Logger log;
+	 private static Logger Log = Logger.getLogger(Log.class.getName());
+	 
+	 
+	 @BeforeTest  
+	  public void setUpDriver() {  
+	   driver = new FirefoxDriver();  
+	  }  
+	   
+	 @Test  
+	 public void start() throws Exception{  
+		 PropertyConfigurator.configure("log4j.properties");
+		 driver.get("https://www.rettach.com/") ;
+		 driver.manage().window().maximize();
+		/* try{
+			 navigateUrls();
+			 Log.info("All the URLS listed in the excel are working fine");
+		 }
+		 catch (Exception e)
+		 {
+			 Log.info("all URLS are not working fine");
+		 }
+		 
+		 signup(); */
+		 AllLogins();
+
+	 } 
+	 
+	 public void navigateUrls()
+	 {
+		 
+		 driver.get("https://www.rettach.com");
+		 driver.get("https://www.rettach.com/faq");
+		 driver.get("https://www.rettach.com/about/");
+		 driver.get("https://www.rettach.com/register/");
+		 driver.get("https://www.rettach.com/accounts/login/");
+		 driver.get("https://www.rettach.com/terms/");
+		 driver.get("https://www.rettach.com/privacy/");
+		 driver.get("https://www.rettach.com/accounts/password/reset/");
+		 driver.get("https://www.rettach.com/patents/");
+		 driver.get("https://www.rettach.com/user/");
+	 }
+	 
+	 public void signup()
+	 {
+		 
+	 }
+	 public void AllLogins() throws Exception
+	 {
+		 login();
+		 boxLogin();
+		 dropBoxLogin();
+		 facebookLogin();
+		 GoogleLogin();
+		 LinkedInLogin();
+		 
+	 }
+	 public void login() throws Exception
+	 {
+		 // Code for login with user name and passwords.
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[4]/a")).click();
+		 Thread.sleep(3000);
+		 driver.findElement(By.xpath(".//*[@id='id_username']")).sendKeys("amargvn1");
+		 driver.findElement(By.xpath("//*[@id='id_password']")).sendKeys("amarendra");
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/form/div[3]/button")).click();
+		 ManageSettingsAction();
+		 RemoveAccount();
+		 LogoutAction();
+		 
+/*		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+		 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+		 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+		 
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+		 Thread.sleep(3000);
+		 Log.info("Successfully Logged out from the Rettach");*/
+		 
+		 /* This code is based on the old UI.
+		 
+		 driver.findElement(By.linkText("Change my Email Accounts")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/button")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/ul/li[1]/a")).click();
+
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/button")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/ul/li[3]/a")).click();
+		 
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/button")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/ul/li[4]/a")).click();
+		 
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/button")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/ul/li[1]/a")).click();
+		 Thread.sleep(2000);
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[2]/td/a")).click();
+		 driver.navigate().back();
+		 
+		 driver.findElement(By.linkText("Submit YOUR ideas!")).click();
+		 driver.navigate().back();
+		 
+		 driver.findElement(By.linkText("Change my Email Accounts")).click();
+		 driver.findElement(By.linkText("Add another account")).click();	 
+		 driver.findElement(By.xpath("html/body/div[1]/div/a/h4")).click();
+		 		 
+		 driver.findElement(By.linkText("Change my Storage Accounts")).click();
+		 
+		 driver.findElement(By.linkText("Rettach uses patent pending technology")).click();
+		 
+		 driver.findElement(By.linkText("About"));
+		 
+		 driver.findElement(By.linkText("Privacy"));
+		 
+		 driver.findElement(By.linkText("Terms"));
+		 
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/button")).click();
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/ul/li[2]/a")).click();
+		 */
+
+		 
+		 Thread.sleep(2000);
+		 
+		 /*driver.get("https://www.rettach.com/user/");
+		 driver.get("https://www.rettach.com/user/account_settings/");
+		 driver.get("https://www.rettach.com/user/accounts/password/change/");
+		 driver.get("https://www.rettach.com/faqs/");
+		 driver.get("https://www.rettach.com/user/manage_rules/");
+		 driver.get("https://www.rettach.com/user/coming_soon/");
+		 driver.get("https://www.rettach.com/user/email_accounts/");
+		 driver.get("https://www.rettach.com/user/storage_accounts/");
+		 driver.get("https://www.rettach.com/user/add_storage_account/");
+		 driver.get("https://www.rettach.com/user/add_email_account/");
+		 driver.get("https://www.rettach.com/user/remove_account/");
+		 driver.get("https://www.rettach.com/accounts/logout");*/
+		 
+		 
+	 }
+	 
+	 public void boxLogin() throws Exception
+	 {
+		// Code for Login with Box account.
+		 
+				 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+				 Thread.sleep(3000);
+				 Log.info("Logging with the"+ driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[1]/a")).getText() +" Account");
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[1]/a")).click();
+				 Thread.sleep(10000);
+				 driver.findElement(By.xpath("//*[@id='login']")).sendKeys("amargvn@gmail.com");
+				 driver.findElement(By.xpath("//*[@id='password']")).sendKeys("@m@r1252");
+				 driver.findElement(By.xpath("html/body/div[3]/div/div[1]/div[2]/div/div[1]/form/div[1]/div[2]/input")).click();
+				 driver.findElement(By.xpath("//*[@id='consent_accept_button']")).click();
+				
+				 ManageSettingsAction();
+				 RemoveAccount();
+				 LogoutAction();
+				 
+				 /*driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div[4]/a/strong")).click();
+				 Thread.sleep(3000);
+				 
+				 	 //Removing Account
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[4]/div[2]/a")).click();
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/table/tbody/tr/th/a")).click();
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[2]/div[1]/div/div/form/a")).click();		 
+				 
+				 	 //Performing Logout action
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+				 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+				 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+				 
+				 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+				 Thread.sleep(3000);*/
+				 
+	 }
+	 
+	 public void dropBoxLogin() throws Exception
+	 {
+		 // Code for Login with DropBox account.
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 Thread.sleep(3000);
+		 Log.info("Logging with the"+ driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[2]/a")).getText() +" Account");
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[2]/a")).click();
+		 Thread.sleep(10000);
+		 
+		 driver.findElement(By.xpath("//input[@name='login_email']")).sendKeys("amargvn@gmail.com");
+		 driver.findElement(By.xpath("//input[@name='login_password']")).sendKeys("@m@r1252");
+		 driver.findElement(By.xpath("//*[@id='regular-login-forms']/form[1]/div[3]/button")).click();
+		
+		 ManageSettingsAction();
+		 RemoveAccount();
+		 LogoutAction();
+		 
+		 /* Thread.sleep(1000);
+		 driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div[4]/a")).click();
+		 Thread.sleep(3000);
+
+		 	 Removing Account
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[4]/div[2]/a")).click();
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/table/tbody/tr/th/a")).click();
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[2]/div[1]/div/div/form/a")).click();		 
+		 
+		 	 Performing Logout action
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+		 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+		 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+		 
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+		 Thread.sleep(3000);*/
+	 }
+	 
+	 public void facebookLogin() throws Exception
+	 {
+		 // Code for Login with DropBox account.
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 Thread.sleep(3000);
+		 Log.info("Logging with the"+ driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[3]/a")).getText() +" Account");
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[3]/a")).click();
+		 Thread.sleep(10000);
+		 
+		 driver.findElement(By.xpath("//input[@name='email']")).sendKeys("labsmotivity@gmail.com");
+		 driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("Qagood@123");
+		 driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
+		 ManageSettingsAction();
+		 RemoveAccount();
+		 LogoutAction();
+		 
+		 /*try
+		 {
+			 Thread.sleep(3000);
+			 Log.info("This is the first time login for this user");
+			 driver.findElement(By.xpath("//*[@id='platformDialogForm']/div[2]/table/tbody/tr/td[2]/button[2]")).click();
+		 }
+		 catch(Exception e)
+		 {
+			 Log.info("This is not the first time login for this user");
+			 Log.info("Back to settings page");
+			 Thread.sleep(3000);
+		 }
+		 
+		 try{
+			 Thread.sleep(3000);
+			 driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div[4]/a")).click();	 
+		 }
+		 catch(Exception e1)
+		 {
+			 Log.info("There is no need of doing settings again");
+		 }
+		 
+		 		 
+		 	 Performing Logout action
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+		 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+		 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+		 
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+		 Thread.sleep(3000);*/
+	 }
+	 
+	 public void GoogleLogin() throws Exception
+	 {
+		 // Code for Login with DropBox account.
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 Thread.sleep(3000);
+		 Log.info("Logging with the"+ driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[4]/a")).getText() +" Account");
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[4]/a")).click();
+		 Thread.sleep(5000);
+		 
+		 driver.findElement(By.xpath("//input[@name='Email']")).sendKeys("amargvn@gmail.com");
+		 driver.findElement(By.xpath("//*[@id='next']")).click();
+		 Thread.sleep(2000);
+		 driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("@m@r1252");
+		 driver.findElement(By.xpath("//*[@id='signIn']")).click();
+		/* try{
+			 Thread.sleep(3000);
+			 driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div[4]/a")).click();	 
+		 }
+		 catch(Exception e1)
+		 {
+			 Log.info("There is no need of doing settings again");
+		 }
+		 
+		 	 Performing Logout action
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+		 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+		 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+		 
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+		 Thread.sleep(3000);*/
+		 ManageSettingsAction();
+		 RemoveAccount();
+		 LogoutAction();
+	 }
+	 
+	 public void LinkedInLogin() throws Exception
+	 {
+		 // Code for Login with DropBox account.
+		 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 Thread.sleep(3000);
+		 Log.info("Logging with the"+ driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[5]/a")).getText() +" Account");
+		 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/div/div[5]/a")).click();
+		 Thread.sleep(5000);
+		 
+		 driver.findElement(By.xpath("//*[@id='session_key-oauth2SAuthorizeForm']")).sendKeys("amargvn@gmail.com");
+		 driver.findElement(By.xpath("//*[@id='session_password-oauth2SAuthorizeForm']")).sendKeys("amarendra");
+		 driver.findElement(By.xpath("//*[@id='body']/div/form/div[2]/ul/li[1]/input")).click();
+		 
+		 ManageSettingsAction();
+		 RemoveAccount();
+		 LogoutAction();
+	 }
+	 
+	 public void LogoutAction() throws Exception
+	 {
+		 try{
+			 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[1]/table/tbody/tr[1]/td/a")).click();
+			 Log.info("The name of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[1]/p/strong")).getText());
+			 Log.info("The Email Id of the Logged in User is:" +driver.findElement(By.xpath("html/body/div[1]/div/div/div/ul/li[2]/p/strong")).getText());
+			 
+			 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a/p")).click();
+			 Thread.sleep(3000);
+		 }
+		 catch (Exception e)
+		 {
+			 Log.error("Not able to Perform logout action");
+		 }
+		
+	 }
+	 
+	 public void ManageSettingsAction()
+	 {
+		 try{
+			 Thread.sleep(3000);
+			 driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div/div/div[4]/a")).click();	 
+		 }
+		 catch(Exception e1)
+		 {
+			 Log.info("There is no need of doing settings again");
+		 }
+	 }
+	 public void RemoveAccount() throws Exception
+	 {
+		 try{
+			 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[4]/div[2]/a")).click();
+			 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/table/tbody/tr/th/a")).click();
+			 driver.findElement(By.xpath("html/body/div[1]/div/div/div/div/div/div[2]/div[1]/div/div/form/a")).click();	
+		 }
+		 catch(Exception e)
+		 {
+			 Log.info("There is no account to delete with this Action");
+			 driver.findElement(By.xpath("//*[@id='navbar']/div/a/button")).click();
+		 }
+		 
+	 }
+	 
+	@AfterSuite
+	public void stop()	  
+	{
+		driver.quit();
+	}
+	 
+}

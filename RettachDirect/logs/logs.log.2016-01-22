@@ -1,0 +1,148 @@
+2016-01-22 10:18:32 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 10:18:47 INFO  Log:310 - There is no need of doing settings again
+2016-01-22 10:18:49 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 10:18:53 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 10:19:00 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 4.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fdf5078-0100-41f2-acbe-0bb2a9803f43
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 10:19:00 ERROR Log:407 - Not able to click on My Account
+2016-01-22 10:19:09 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 10:20:09 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 10:20:21 INFO  Log:310 - There is no need of doing settings again
+2016-01-22 10:20:22 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 10:20:24 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 10:20:29 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 2.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 67be8399-e9d5-4b67-a726-e0217c32ca0d
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 10:20:29 ERROR Log:407 - Not able to click on My Account
+2016-01-22 10:20:38 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 10:21:41 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 10:21:53 INFO  Log:310 - There is no need of doing settings again
+2016-01-22 10:21:54 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 10:21:56 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 10:22:02 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 2.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d54a2577-2fd3-4c4c-a207-ac4f9fe6926f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 10:22:02 ERROR Log:407 - Not able to click on My Account
+2016-01-22 10:22:10 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 10:24:13 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 10:24:26 INFO  Log:310 - There is no need of doing settings again
+2016-01-22 10:24:27 INFO  Log:352 - There is no accounts to be deleted
+2016-01-22 10:24:29 INFO  Log:380 - There is no accounts to be deleted
+2016-01-22 10:24:34 ERROR Log:407 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 2.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c663162e-f30f-4d7a-9c6c-fddd38ac657b
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 10:24:34 ERROR Log:408 - Not able to click on My Account
+2016-01-22 10:24:43 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 12:45:05 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 12:45:18 INFO  Log:310 - There is no need of doing settings again
+2016-01-22 12:45:19 INFO  Log:352 - There is no accounts to be deleted
+2016-01-22 12:45:21 INFO  Log:380 - There is no accounts to be deleted
+2016-01-22 12:45:27 ERROR Log:407 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 2.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 27a73383-0037-41a3-a6a3-6c0a2ad995ae
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 12:45:27 ERROR Log:408 - Not able to click on My Account
+2016-01-22 12:45:35 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 12:48:33 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 12:49:25 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 12:49:40 INFO  Log:308 - There is no need of doing settings again
+2016-01-22 12:50:50 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 12:51:05 INFO  Log:308 - There is no need of doing settings again
+2016-01-22 12:51:06 INFO  Log:350 - There is no accounts to be deleted
+2016-01-22 12:51:10 INFO  Log:378 - There is no accounts to be deleted
+2016-01-22 12:51:18 ERROR Log:405 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 4.53 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9e932fab-f248-4e9c-a1c7-712dc0f4f4f2
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-22 12:51:18 ERROR Log:406 - Not able to click on My Account
+2016-01-22 12:51:26 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-22 12:52:47 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-22 12:53:02 INFO  Log:308 - There is no need of doing settings again
+2016-01-22 12:53:11 INFO  Log:340 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-22 12:53:22 INFO  Log:340 - The added account is: Exchange (mreddy@good.com)
+2016-01-22 12:53:32 INFO  Log:340 - The added account is: Google (amargvn@gmail.com)
+2016-01-22 12:53:43 INFO  Log:340 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-22 12:53:54 INFO  Log:340 - The added account is: Office365 (haritha.v@motivitylabs.com)
+2016-01-22 12:54:02 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:54:11 INFO  Log:368 - The added account is: Box (amargvn@gmail.com)
+2016-01-22 12:54:23 INFO  Log:368 - The added account is: Dropbox (amargvn@gmail.com)
+2016-01-22 12:54:35 INFO  Log:368 - The added account is: Box (labsmotivity1@gmail.com)
+2016-01-22 12:54:48 INFO  Log:368 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-22 12:55:01 INFO  Log:368 - The added account is: Onedrive (Motivity1labs)
+2016-01-22 12:55:15 INFO  Log:368 - The added account is: Google (amargvn@gmail.com)
+2016-01-22 12:55:26 INFO  Log:368 - The added account is: Onedrive (AmarendraGuggilam)
+2016-01-22 12:55:38 INFO  Log:368 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:47 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:55:53 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:53 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:55:58 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:55:58 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:56:04 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:56:04 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:56:09 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:56:09 INFO  Log:351 - There is no accounts to be deleted
+2016-01-22 12:56:16 INFO  Log:379 - There is no accounts to be deleted
+2016-01-22 12:56:19 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 208 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef55a0ab-6e3a-4095-9d7b-6f2f80846fd5
+*** Element info: {Using=partial link text, value=Account}
+2016-01-22 12:56:19 ERROR Log:407 - Not able to click on My Account
+2016-01-22 12:56:27 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

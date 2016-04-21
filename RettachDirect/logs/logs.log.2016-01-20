@@ -1,0 +1,37 @@
+2016-01-20 18:33:12 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-20 18:33:25 INFO  Log:310 - There is no need of doing settings again
+2016-01-20 18:33:33 INFO  Log:340 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-20 18:33:44 INFO  Log:340 - The added account is: Exchange (mreddy@good.com)
+2016-01-20 18:33:54 INFO  Log:340 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-20 18:34:01 INFO  Log:351 - There is no accounts to be deleted
+2016-01-20 18:34:12 INFO  Log:368 - The added account is: Box (labsmotivity1@gmail.com)
+2016-01-20 18:34:23 INFO  Log:368 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-20 18:34:36 INFO  Log:368 - The added account is: Onedrive (Motivity1labs)
+2016-01-20 18:34:48 INFO  Log:368 - The added account is: Onedrive (AmarendraGuggilam)
+2016-01-20 18:35:00 INFO  Log:368 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-01-20 18:35:12 INFO  Log:368 - The added account is: Box (amargvn@gmail.com)
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:20 INFO  Log:351 - There is no accounts to be deleted
+2016-01-20 18:35:26 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:26 INFO  Log:351 - There is no accounts to be deleted
+2016-01-20 18:35:31 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:31 INFO  Log:351 - There is no accounts to be deleted
+2016-01-20 18:35:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-20 18:35:40 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 192 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bfb00e9b-3cc1-4a5c-b901-fcb6e9d4e9b1
+*** Element info: {Using=partial link text, value=Account}
+2016-01-20 18:35:40 ERROR Log:407 - Not able to click on My Account
+2016-01-20 18:35:49 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

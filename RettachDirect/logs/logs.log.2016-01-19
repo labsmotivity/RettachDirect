@@ -1,0 +1,624 @@
+2016-01-19 12:06:52 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:07:09 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:07:20 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 4.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7aff8fd5-545e-4f03-b682-573fa994b959
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:07:20 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:07:23 ERROR Log:410 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 290 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7aff8fd5-545e-4f03-b682-573fa994b959
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:07:23 ERROR Log:411 - Not able to click on My Account
+2016-01-19 12:07:33 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 12:09:10 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:09:23 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:09:33 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: affc82cc-432e-4539-bd12-8a841529210c
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:09:33 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:09:36 ERROR Log:410 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 221 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: affc82cc-432e-4539-bd12-8a841529210c
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:09:36 ERROR Log:411 - Not able to click on My Account
+2016-01-19 12:09:45 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 12:12:07 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:12:22 INFO  Log:316 - There is no need of doing settings again
+2016-01-19 12:12:34 INFO  Log:356 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 4.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58c35534-c20d-417c-a9e8-a5bab69090fc
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:12:34 INFO  Log:357 - There is no accounts to be deleted
+2016-01-19 12:12:46 INFO  Log:383 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.69 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58c35534-c20d-417c-a9e8-a5bab69090fc
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:12:46 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:12:58 INFO  Log:383 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58c35534-c20d-417c-a9e8-a5bab69090fc
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:12:58 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:13:01 ERROR Log:411 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 248 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58c35534-c20d-417c-a9e8-a5bab69090fc
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:13:01 ERROR Log:412 - Not able to click on My Account
+2016-01-19 12:13:10 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 12:15:50 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:16:06 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:16:14 INFO  Log:355 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f1de8c8-39a8-4941-bf01-290d35bceef9
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:16:14 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:16:23 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 2.82 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f1de8c8-39a8-4941-bf01-290d35bceef9
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:16:23 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:16:26 ERROR Log:410 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 213 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f1de8c8-39a8-4941-bf01-290d35bceef9
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:16:26 ERROR Log:411 - Not able to click on My Account
+2016-01-19 12:16:35 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 12:18:38 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:18:53 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:19:02 INFO  Log:345 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-19 12:19:03 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a"}
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a}
+2016-01-19 12:19:03 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:19:12 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 2.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:19:12 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:19:12 INFO  Log:345 - The added account is: Exchange (mreddy@good.com)
+2016-01-19 12:19:13 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a"}
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a}
+2016-01-19 12:19:13 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:19:22 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 2.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:19:22 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:19:22 INFO  Log:345 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-19 12:19:23 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a"}
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='indent-responsive']/div/div/div/div[2]/div[1]/div[2]/a}
+2016-01-19 12:19:23 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:19:32 INFO  Log:382 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:19:32 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:19:32 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[4]/form[1]/button"}
+Command duration or timeout: 358 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d47fbce1-962a-4559-8b13-ad5f4ccdde86
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[4]/form[1]/button}
+2016-01-19 12:19:32 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:19:42 INFO  Log:382 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+2016-01-19 12:19:42 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:19:46 ERROR Log:410 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+2016-01-19 12:19:46 ERROR Log:411 - Not able to click on My Account
+2016-01-19 12:21:22 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:21:36 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:21:46 INFO  Log:345 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-19 12:21:57 INFO  Log:345 - The added account is: Exchange (mreddy@good.com)
+2016-01-19 12:22:06 INFO  Log:345 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-19 12:22:14 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.77 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 12:22:14 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:22:24 INFO  Log:382 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]"}
+Command duration or timeout: 3.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:22:24 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:22:24 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 12:22:24 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:22:33 INFO  Log:382 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]"}
+Command duration or timeout: 3.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:22:33 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:22:33 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 12:22:33 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:22:41 INFO  Log:382 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]"}
+Command duration or timeout: 2.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[6]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:22:41 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:22:41 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 12:22:41 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:22:47 INFO  Log:382 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.94 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2781dfff-1b43-4a69-adba-c0bcd0807c1b
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 12:22:47 INFO  Log:383 - There is no accounts to be deleted
+2016-01-19 12:22:51 ERROR Log:410 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+2016-01-19 12:22:51 ERROR Log:411 - Not able to click on My Account
+2016-01-19 12:25:24 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:25:38 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:25:43 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 3.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: db8aeb75-307d-48bd-88e4-2aa528e6a25b
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 12:25:43 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:25:53 INFO  Log:383 - org.openqa.selenium.InvalidSelectorException: The given selector //div[@class='buttons']/div[5]/div[1]/form[1]/button/text()[2] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: The result of the xpath expression "//div[@class='buttons']/div[5]/div[1]/form[1]/button/text()[2]" is: [object Text]. It should be an element.
+Command duration or timeout: 3.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: db8aeb75-307d-48bd-88e4-2aa528e6a25b
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[1]/form[1]/button/text()[2]}
+2016-01-19 12:25:53 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:25:56 ERROR Log:411 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 170 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: db8aeb75-307d-48bd-88e4-2aa528e6a25b
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:25:56 ERROR Log:412 - Not able to click on My Account
+2016-01-19 12:26:04 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 12:29:24 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 12:29:38 INFO  Log:315 - There is no need of doing settings again
+2016-01-19 12:29:43 INFO  Log:355 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 4.00 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 12:29:43 INFO  Log:356 - There is no accounts to be deleted
+2016-01-19 12:29:52 INFO  Log:373 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-19 12:30:05 INFO  Log:373 - The added account is: Onedrive (Motivity1labs)
+2016-01-19 12:30:18 INFO  Log:373 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-01-19 12:30:32 INFO  Log:373 - The added account is: Box (labsmotivity1@gmail.com)
+2016-01-19 12:30:42 INFO  Log:383 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 3.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 12:30:42 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:30:42 INFO  Log:383 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 12:30:42 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:30:42 INFO  Log:383 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 12:30:42 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:30:42 INFO  Log:383 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 12:30:42 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:30:42 INFO  Log:383 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 12:30:42 INFO  Log:384 - There is no accounts to be deleted
+2016-01-19 12:30:45 ERROR Log:411 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 162 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9b782498-9cb9-4ec7-a9b6-3fa3df5d7b2c
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 12:30:45 ERROR Log:412 - Not able to click on My Account
+2016-01-19 12:30:53 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 14:09:08 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 14:09:22 INFO  Log:310 - There is no need of doing settings again
+2016-01-19 14:09:31 INFO  Log:340 - The added account is: Google (amargvn@gmail.com)
+2016-01-19 14:09:42 INFO  Log:340 - The added account is: Exchange (mreddy@good.com)
+2016-01-19 14:09:52 INFO  Log:340 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-19 14:10:00 INFO  Log:350 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 3.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 14:10:00 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 14:10:10 INFO  Log:368 - The added account is: Google (amargvn@gmail.com)
+2016-01-19 14:10:22 INFO  Log:368 - The added account is: Onedrive (AmarendraGuggilam)
+2016-01-19 14:10:35 INFO  Log:368 - The added account is: Dropbox (amargvn@gmail.com)
+2016-01-19 14:10:47 INFO  Log:368 - The added account is: Box (amargvn@gmail.com)
+2016-01-19 14:10:56 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 14:10:56 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:10:56 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 14:10:56 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:10:56 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 14:10:56 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:10:57 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 14:10:57 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:10:57 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[5]/div[2]/form[1]/button"}
+Command duration or timeout: 79 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[5]/div[2]/form[1]/button}
+2016-01-19 14:10:57 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:10:57 INFO  Log:350 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 432 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 14:10:57 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 14:11:03 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 14:11:03 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:11:03 INFO  Log:350 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 14:11:03 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 14:11:10 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 14:11:10 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:11:10 INFO  Log:350 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[2]/form[1]/button"}
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[2]/form[1]/button}
+2016-01-19 14:11:10 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 14:11:17 INFO  Log:378 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='table']/tbody/tr[1]/th/a"}
+Command duration or timeout: 2.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=xpath, value=//table[@class='table']/tbody/tr[1]/th/a}
+2016-01-19 14:11:17 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 14:11:20 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 163 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ae97a5a-ad2d-4b98-b702-5a9e05c3027a
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 14:11:20 ERROR Log:407 - Not able to click on My Account
+2016-01-19 14:11:28 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-19 22:18:42 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 22:18:58 INFO  Log:310 - There is no need of doing settings again
+2016-01-19 22:18:59 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:19:05 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:19:09 ERROR Log:406 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+2016-01-19 22:19:09 ERROR Log:407 - Not able to click on My Account
+2016-01-19 22:19:30 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-19 22:19:47 INFO  Log:310 - There is no need of doing settings again
+2016-01-19 22:19:58 INFO  Log:340 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-19 22:20:08 INFO  Log:340 - The added account is: Exchange (mreddy@good.com)
+2016-01-19 22:20:20 INFO  Log:340 - The added account is: Google (amargvn@gmail.com)
+2016-01-19 22:20:30 INFO  Log:340 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-19 22:20:43 INFO  Log:340 - The added account is: Office365 (mreddy@motivitylabs.com)
+2016-01-19 22:20:50 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:21:02 INFO  Log:368 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-01-19 22:21:16 INFO  Log:368 - The added account is: Box (labsmotivity1@gmail.com)
+2016-01-19 22:21:27 INFO  Log:368 - The added account is: Dropbox (amargvn@gmail.com)
+2016-01-19 22:21:39 INFO  Log:368 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-19 22:21:51 INFO  Log:368 - The added account is: Onedrive (Motivity1labs)
+2016-01-19 22:22:02 INFO  Log:368 - The added account is: Google (amargvn@gmail.com)
+2016-01-19 22:22:14 INFO  Log:368 - The added account is: Onedrive (AmarendraGuggilam)
+2016-01-19 22:22:28 INFO  Log:368 - The added account is: Box (amargvn@gmail.com)
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:37 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:22:42 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:42 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:22:49 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:49 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:22:56 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:22:56 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:23:01 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:23:01 INFO  Log:351 - There is no accounts to be deleted
+2016-01-19 22:23:07 INFO  Log:379 - There is no accounts to be deleted
+2016-01-19 22:23:10 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 152 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f7049550-ff59-454f-b57e-66ccd99749c8
+*** Element info: {Using=partial link text, value=Account}
+2016-01-19 22:23:10 ERROR Log:407 - Not able to click on My Account
+2016-01-19 22:23:18 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

@@ -1,0 +1,15 @@
+2016-01-06 12:53:58 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-06 12:54:12 INFO  Log:310 - There is no need of doing settings again
+2016-01-06 12:54:13 INFO  Log:323 - There is no account to delete with this Action
+2016-01-06 12:54:23 INFO  Log:326 - Clicked on Settings button
+2016-01-06 12:54:30 ERROR Log:353 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td/a"}
+Command duration or timeout: 3.62 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ee276fd-db7a-4eb9-bec2-a6d2ad396ba0
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td/a}
+2016-01-06 12:54:30 ERROR Log:354 - Not able to click on My Account

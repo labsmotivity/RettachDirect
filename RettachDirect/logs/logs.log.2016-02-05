@@ -1,0 +1,72 @@
+2016-02-05 11:17:00 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:17:55 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:18:17 INFO  Log:387 - The added account is: Google (labsmotivity1@gmail.com)
+2016-02-05 11:18:29 INFO  Log:387 - The added account is: Exchange (mreddy@good.com)
+2016-02-05 11:18:40 INFO  Log:387 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:18:46 INFO  Log:396 - There is no accounts to be deleted in Email accounts
+2016-02-05 11:19:00 INFO  Log:416 - The added account is: Google (labsmotivity1@gmail.com)
+2016-02-05 11:19:16 INFO  Log:416 - The added account is: Onedrive (Motivity1labs)
+2016-02-05 11:19:32 INFO  Log:416 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-02-05 11:19:46 INFO  Log:416 - The added account is: Box (labsmotivity1@gmail.com)
+2016-02-05 11:20:03 INFO  Log:416 - The added account is: Box (amargvn@gmail.com)
+2016-02-05 11:20:15 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:21 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:24 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:28 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:31 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:34 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:38 INFO  Log:396 - There is no accounts to be deleted in Email accounts
+2016-02-05 11:20:44 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:20:47 INFO  Log:396 - There is no accounts to be deleted in Email accounts
+2016-02-05 11:20:58 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:21:03 INFO  Log:396 - There is no accounts to be deleted in Email accounts
+2016-02-05 11:21:09 INFO  Log:425 - There is no accounts to be deleted
+2016-02-05 11:36:23 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:36:46 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-02-05 11:38:30 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:38:53 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-02-05 11:40:17 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:40:38 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-02-05 11:42:20 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:42:44 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-02-05 11:44:55 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:45:18 INFO  Log:384 - Number of accounts added in the Email Rows are:0
+2016-02-05 11:45:18 INFO  Log:79 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-02-05 11:46:24 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-02-05 11:46:42 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:46:42 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:46:46 INFO  Log:390 - The deleted account is: Google (labsmotivity1@gmail.com)
+2016-02-05 11:46:53 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:46:53 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:46:57 INFO  Log:390 - The deleted account is: Exchange (mreddy@good.com)
+2016-02-05 11:47:05 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:47:05 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:47:08 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:47:16 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:47:16 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:47:19 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:47:26 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:47:26 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:47:29 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:47:37 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:47:37 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:47:40 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:47:52 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:47:52 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:47:55 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:48:03 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:48:03 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:48:07 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 11:48:14 INFO  Log:384 - Number of accounts added in the Email Rows are:1
+2016-02-05 11:48:14 INFO  Log:388 - Number of accounts added in the Email are:1
+2016-02-05 11:48:17 INFO  Log:390 - The deleted account is: Office365 (amarendra.g@motivitylabs.com)
+2016-02-05 15:23:11 INFO  Log:71 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------

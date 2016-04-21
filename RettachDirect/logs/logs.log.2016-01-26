@@ -1,0 +1,38 @@
+2016-01-26 12:35:29 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-26 12:35:52 INFO  Log:350 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-26 12:36:11 INFO  Log:364 - There is no accounts to be deleted
+2016-01-26 12:36:11 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-26 12:39:02 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-26 12:39:26 INFO  Log:351 - The added account is: Exchange (mreddy@good.com)
+2016-01-26 12:39:46 INFO  Log:351 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-26 12:40:02 INFO  Log:364 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='buttons']/div[4]/div[3]/form[1]/button"}
+Command duration or timeout: 2.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f421e910-34b1-4c31-951d-b3a5bb7b98c3
+*** Element info: {Using=xpath, value=//div[@class='buttons']/div[4]/div[3]/form[1]/button}
+2016-01-26 12:40:02 INFO  Log:365 - There is no accounts to be deleted
+2016-01-26 12:40:02 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
+2016-01-26 20:02:29 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-26 20:03:10 INFO  Log:381 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-26 20:03:20 INFO  Log:392 - There is no accounts to be deleted
+2016-01-26 20:03:31 INFO  Log:409 - The added account is: Google (labsmotivity1@gmail.com)
+2016-01-26 20:03:41 INFO  Log:409 - The added account is: Onedrive (Motivity1labs)
+2016-01-26 20:03:51 INFO  Log:409 - The added account is: Dropbox (labsmotivity1@gmail.com)
+2016-01-26 20:04:01 INFO  Log:409 - The added account is: Box (labsmotivity1@gmail.com)
+2016-01-26 20:04:11 INFO  Log:409 - The added account is: Box (amargvn@gmail.com)
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:19 INFO  Log:392 - There is no accounts to be deleted
+2016-01-26 20:04:24 INFO  Log:420 - There is no accounts to be deleted
+2016-01-26 20:04:24 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

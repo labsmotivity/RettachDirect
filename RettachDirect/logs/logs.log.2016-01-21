@@ -1,0 +1,19 @@
+2016-01-21 11:27:16 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2016-01-21 11:27:30 INFO  Log:310 - There is no need of doing settings again
+2016-01-21 11:27:38 INFO  Log:340 - The added account is: Office365 (amarendra.g@motivitylabs.com)
+2016-01-21 11:27:46 INFO  Log:351 - There is no accounts to be deleted
+2016-01-21 11:27:52 INFO  Log:379 - There is no accounts to be deleted
+2016-01-21 11:27:52 INFO  Log:351 - There is no accounts to be deleted
+2016-01-21 11:27:57 INFO  Log:379 - There is no accounts to be deleted
+2016-01-21 11:28:00 ERROR Log:406 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"partial link text","selector":"Account"}
+Command duration or timeout: 212 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.21.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 268a6f11-fbb2-4c93-9aa1-75c5da4f1999
+*** Element info: {Using=partial link text, value=Account}
+2016-01-21 11:28:00 ERROR Log:407 - Not able to click on My Account
+2016-01-21 11:28:09 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------

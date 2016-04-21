@@ -1,0 +1,32 @@
+2015-12-30 17:37:58 INFO  Log:66 - 
+ ----------------------------------------------------------------------Script Started----------------------------------------------------------------------
+2015-12-30 17:38:14 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:38:15 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:38:25 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:38:28 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:38:42 INFO  Log:133 - Logging with the  Box Account
+2015-12-30 17:39:01 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:39:02 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:39:13 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:39:16 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:39:28 INFO  Log:168 - Logging with the  Dropbox Account
+2015-12-30 17:39:46 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:39:47 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:39:57 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:40:00 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:40:14 INFO  Log:203 - Logging with the  Facebook Account
+2015-12-30 17:40:35 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:40:36 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:40:46 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:40:49 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:41:02 INFO  Log:251 - Logging with the  Google Account
+2015-12-30 17:41:16 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:41:17 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:41:27 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:41:30 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:41:46 INFO  Log:287 - Logging with the  Linkedin Account
+2015-12-30 17:42:00 INFO  Log:310 - There is no need of doing settings again
+2015-12-30 17:42:01 INFO  Log:323 - There is no account to delete with this Action
+2015-12-30 17:42:11 INFO  Log:326 - Clicked on Settings button
+2015-12-30 17:42:15 ERROR Log:350 - Not able to Perform logout action
+2015-12-30 17:42:21 INFO  Log:74 - ----------------------------------------------------------------------Script completed----------------------------------------------------------------------
