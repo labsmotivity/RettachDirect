@@ -24,12 +24,11 @@ public class DealRoom {
 	 @BeforeTest  
 	  public void setUpDriver() {  
 		caps = new DesiredCapabilities();
-		caps.setCapability("browser", "Firefox");
-		caps.setCapability("browser_version", "45.0");
-		caps.setCapability("os", "Windows");
-		caps.setCapability("os_version", "7");
-		caps.setCapability("resolution", "1024x768");
-
+		caps.setCapability("browser", "Chrome");
+caps.setCapability("browser_version", "49.0");
+caps.setCapability("os", "Windows");
+caps.setCapability("os_version", "7");
+caps.setCapability("resolution", "1024x768");
 		      
 	  }  
 	   
@@ -38,16 +37,15 @@ public class DealRoom {
 		 driver = new RemoteWebDriver(new URL(URL), caps);
 		 
 		 driver.get("https://app.dealroom.co");
-		 Thread.sleep(10000);
+		 Thread.sleep(15000);
+		 driver.manage().window().maximize();
 		 Login();
-//		 LinkCheck();
 		 searchcompany();
-
-		 
 	 }
 	 
 	 public void Login()
 	 {
+		 Thread.sleep(15000);
 		 driver.findElement(By.linkText("LOGIN")).click();
 		 driver.findElement(By.name("username")).sendKeys("labsmotivity@gmail.com");
 		 driver.findElement(By.name("password")).sendKeys("Qagood@123");
@@ -74,7 +72,7 @@ public class DealRoom {
 		 driver.findElement(By.xpath("//*[@id='app']/div/div[1]/div[2]/div/div/div[1]/div[1]/div/input")).sendKeys("keeptrax");
 		 driver.findElement(By.xpath("//*[@id='app']/div/div[1]/div[2]/div/div/div[1]/div[1]/div/input")).sendKeys(Keys.ENTER);
 		 
-		 Thread.sleep(5000);
+		 Thread.sleep(15000);
 		 int n =driver.findElements(By.xpath("//*[@class='virtual-list table-list']")).size();
 		 System.out.println("THe no of rows idendtified for the search company are: "+n);
 		 
